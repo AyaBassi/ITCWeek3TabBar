@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Second Storyboard View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="SecondStoryboardViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="SecondStoryboardViewController" customModule="TabBarExampleITCWeek3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Second Storyboard" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eiy-pG-LJ4">
+                                <rect key="frame" x="69" y="204" width="254" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18" y="-2"/>
+        </scene>
+        <!--Second Storyboard Some View Controller-->
+        <scene sceneID="eIz-7U-U6u">
+            <objects>
+                <viewController storyboardIdentifier="SecondStoryboardSomeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="bBQ-TX-O8m" customClass="SecondStoryboardSomeViewController" customModule="TabBarExampleITCWeek3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YUd-ow-jEk">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Second Storyboard through segue" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XT9-oZ-3wc">
+                                <rect key="frame" x="16" y="191" width="361" height="62.333333333333343"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="KGO-1b-B6i"/>
+                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                        <constraints>
+                            <constraint firstItem="KGO-1b-B6i" firstAttribute="trailing" secondItem="XT9-oZ-3wc" secondAttribute="trailing" constant="16" id="9kq-jc-Vq1"/>
+                            <constraint firstItem="XT9-oZ-3wc" firstAttribute="leading" secondItem="KGO-1b-B6i" secondAttribute="leading" constant="16" id="Arc-H2-Rky"/>
+                            <constraint firstItem="XT9-oZ-3wc" firstAttribute="top" secondItem="KGO-1b-B6i" secondAttribute="top" constant="132" id="JWT-5I-apW"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2O0-Jy-erd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="794.6564885496183" y="-2.1126760563380285"/>
+        </scene>
+        <!--Seventh Tab Bar View Controller-->
+        <scene sceneID="kpI-bl-Wxh">
+            <objects>
+                <viewController storyboardIdentifier="SeventhTabBarViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="w6I-In-Ych" customClass="SeventhTabBarViewController" customModule="TabBarExampleITCWeek3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XkI-d1-M2L">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Second Storyboard through segue straight from tabBar" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rxf-8z-3qB">
+                                <rect key="frame" x="16" y="271" width="361" height="93.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="s1O-bE-y2q"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                        <constraints>
+                            <constraint firstItem="Rxf-8z-3qB" firstAttribute="leading" secondItem="s1O-bE-y2q" secondAttribute="leading" constant="16" id="9rc-5X-O4W"/>
+                            <constraint firstItem="Rxf-8z-3qB" firstAttribute="top" secondItem="s1O-bE-y2q" secondAttribute="top" constant="168" id="HIE-Hq-Xxh"/>
+                            <constraint firstAttribute="trailing" secondItem="Rxf-8z-3qB" secondAttribute="trailing" constant="16" id="rXc-iN-OEh"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="1Eg-zF-Uc6"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LdH-gj-Ylv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1546" y="23"/>
+        </scene>
+        <!--Eighth Tab Bar In 2nd Sto Brd View Controller-->
+        <scene sceneID="Xdn-tH-RSM">
+            <objects>
+                <viewController storyboardIdentifier="EighthTabBarIn2ndStoBrdViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="8Rj-wf-NIb" customClass="EighthTabBarIn2ndStoBrdViewController" customModule="TabBarExampleITCWeek3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Tlb-sr-e9H">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="In Second Storyboard accessed from segue straight from tabBar embbedded in view controller" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Pu-nF-Soz">
+                                <rect key="frame" x="16" y="253" width="361" height="155.33333333333337"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="7MQ-I4-Vh3"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <constraints>
+                            <constraint firstItem="3Pu-nF-Soz" firstAttribute="leading" secondItem="7MQ-I4-Vh3" secondAttribute="leading" constant="16" id="HTc-o5-G34"/>
+                            <constraint firstItem="3Pu-nF-Soz" firstAttribute="top" secondItem="7MQ-I4-Vh3" secondAttribute="top" constant="194" id="hrO-0s-Dqv"/>
+                            <constraint firstItem="7MQ-I4-Vh3" firstAttribute="trailing" secondItem="3Pu-nF-Soz" secondAttribute="trailing" constant="16" id="uj1-JV-dMA"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vWM-YF-Vd0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2480" y="23"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="22e-tV-sHk">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="PNP-xZ-HGi" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="TdU-Yu-b7g">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="w6I-In-Ych" kind="relationship" relationship="rootViewController" id="vqH-Gm-yzl"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DUq-Z1-0I9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1547" y="-705"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
